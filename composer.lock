@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6558f74828bca9ebecac73d90cea4b1a",
+    "content-hash": "c9b914a129a04dbd8fdfd6cd3a30f78e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1103,6 +1103,64 @@
                 "storage"
             ],
             "time": "2020-02-05T18:14:17+00:00"
+        },
+        {
+            "name": "makhweb/blade-x-loader",
+            "version": "v1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/makhweb/blade-x-loader.git",
+                "reference": "83c3a41553a0bcd0569e4739344de083d4eb0ced"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/makhweb/blade-x-loader/zipball/83c3a41553a0bcd0569e4739344de083d4eb0ced",
+                "reference": "83c3a41553a0bcd0569e4739344de083d4eb0ced",
+                "shasum": ""
+            },
+            "require-dev": {
+                "fzaninotto/faker": "^1.9@dev",
+                "illuminate/support": "^5.8@dev",
+                "mockery/mockery": "^1.0@dev",
+                "orchestra/database": "^3.8@dev",
+                "orchestra/testbench": "^3.8@dev",
+                "phpunit/phpunit": "^7.4@dev"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Makhweb\\BladeXLoader\\BladeXLoaderServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Makhweb\\BladeXLoader\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eldorbek Makhkamov",
+                    "email": "eldorbekmakhkamov@gmail.com"
+                }
+            ],
+            "description": "Load only necessary part of page with X-Request 🚀",
+            "keywords": [
+                "ajax",
+                "blade",
+                "javascript",
+                "laravel",
+                "makhweb"
+            ],
+            "time": "2020-03-04T07:09:50+00:00"
         },
         {
             "name": "monolog/monolog",
